@@ -1,0 +1,13 @@
+C:\Dev\Poker\PokerServer\PokerServer\PokerSever.Engine.Tests\bin\Debug\PokerSever.Engine.Tests.dll
+C:\Dev\Poker\PokerServer\PokerServer\PokerSever.Engine.Tests\bin\Debug\PokerSever.Engine.Tests.pdb
+C:\Dev\Poker\PokerServer\PokerServer\PokerSever.Engine.Tests\bin\Debug\Moq.dll
+C:\Dev\Poker\PokerServer\PokerServer\PokerSever.Engine.Tests\bin\Debug\nunit.framework.dll
+C:\Dev\Poker\PokerServer\PokerServer\PokerSever.Engine.Tests\bin\Debug\PokerServer.Engine.dll
+C:\Dev\Poker\PokerServer\PokerServer\PokerSever.Engine.Tests\bin\Debug\PokerServer.Engine.pdb
+C:\Dev\Poker\PokerServer\PokerServer\PokerSever.Engine.Tests\bin\Debug\Moq.xml
+C:\Dev\Poker\PokerServer\PokerServer\PokerSever.Engine.Tests\bin\Debug\nunit.framework.xml
+C:\Dev\Poker\PokerServer\PokerServer\PokerSever.Engine.Tests\obj\Debug\PokerSever.Engine.Tests.csprojResolveAssemblyReference.cache
+C:\Dev\Poker\PokerServer\PokerServer\PokerSever.Engine.Tests\obj\Debug\PokerSever.Engine.Tests.dll
+C:\Dev\Poker\PokerServer\PokerServer\PokerSever.Engine.Tests\obj\Debug\PokerSever.Engine.Tests.pdb
+C:\Dev\Poker\PokerServer\PokerServer\PokerSever.Engine.Tests\bin\Debug\PokerServer.Engine.Configuration.dll
+C:\Dev\Poker\PokerServer\PokerServer\PokerSever.Engine.Tests\bin\Debug\PokerServer.Engine.Configuration.pdb
