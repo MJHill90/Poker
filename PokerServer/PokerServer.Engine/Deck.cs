@@ -24,14 +24,7 @@ namespace PokerServer.Engine
 
         public void Shuffle(INumberGenerator numberGenerator)
         {
-            int length = Cards.Count;
-            for (int i = 0; i < length; i++)
-            {
-                int r = i + (int)(numberGenerator.GenerateRandomDouble(0,1) * (length - i)) - 1;
-                ICard card = Cards[r];
-                Cards[r] = Cards[i];
-                Cards[i] = card;
-            }
+            Cards.Shuffle(numberGenerator);
         }
 
         public override string ToString()

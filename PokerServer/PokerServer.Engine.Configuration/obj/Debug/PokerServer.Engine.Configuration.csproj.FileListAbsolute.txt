@@ -3,3 +3,7 @@ C:\Dev\Poker\PokerServer\PokerServer\PokerServer.Engine.Configuration\bin\Debug\
 C:\Dev\Poker\PokerServer\PokerServer\PokerServer.Engine.Configuration\obj\Debug\PokerServer.Engine.Configuration.csprojResolveAssemblyReference.cache
 C:\Dev\Poker\PokerServer\PokerServer\PokerServer.Engine.Configuration\obj\Debug\PokerServer.Engine.Configuration.dll
 C:\Dev\Poker\PokerServer\PokerServer\PokerServer.Engine.Configuration\obj\Debug\PokerServer.Engine.Configuration.pdb
+C:\Dev\HomeDev\PokerServer\PokerServer.Engine.Configuration\bin\Debug\PokerServer.Engine.Configuration.dll
+C:\Dev\HomeDev\PokerServer\PokerServer.Engine.Configuration\bin\Debug\PokerServer.Engine.Configuration.pdb
+C:\Dev\HomeDev\PokerServer\PokerServer.Engine.Configuration\obj\Debug\PokerServer.Engine.Configuration.dll
+C:\Dev\HomeDev\PokerServer\PokerServer.Engine.Configuration\obj\Debug\PokerServer.Engine.Configuration.pdb

@@ -43,6 +43,7 @@
     <Compile Include="CardService.cs" />
     <Compile Include="Deck.cs" />
     <Compile Include="DeckService.cs" />
+    <Compile Include="ExtensionMethods.cs" />
     <Compile Include="ICard.cs" />
     <Compile Include="ICardService.cs" />
     <Compile Include="IDeck.cs" />

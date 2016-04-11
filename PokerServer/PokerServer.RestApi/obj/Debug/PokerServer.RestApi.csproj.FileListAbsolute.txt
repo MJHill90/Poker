@@ -6,3 +6,11 @@ C:\Dev\Poker\PokerServer\PokerServer\PokerServer.RestApi\bin\PokerServer.Data.pd
 C:\Dev\Poker\PokerServer\PokerServer\PokerServer.RestApi\obj\Debug\PokerServer.RestApi.csprojResolveAssemblyReference.cache
 C:\Dev\Poker\PokerServer\PokerServer\PokerServer.RestApi\obj\Debug\PokerServer.RestApi.dll
 C:\Dev\Poker\PokerServer\PokerServer\PokerServer.RestApi\obj\Debug\PokerServer.RestApi.pdb
+C:\Dev\HomeDev\PokerServer\PokerServer.RestApi\bin\PokerServer.RestApi.dll.config
+C:\Dev\HomeDev\PokerServer\PokerServer.RestApi\bin\PokerServer.RestApi.dll
+C:\Dev\HomeDev\PokerServer\PokerServer.RestApi\bin\PokerServer.RestApi.pdb
+C:\Dev\HomeDev\PokerServer\PokerServer.RestApi\bin\PokerServer.Data.dll
+C:\Dev\HomeDev\PokerServer\PokerServer.RestApi\bin\PokerServer.Data.pdb
+C:\Dev\HomeDev\PokerServer\PokerServer.RestApi\obj\Debug\PokerServer.RestApi.csprojResolveAssemblyReference.cache
+C:\Dev\HomeDev\PokerServer\PokerServer.RestApi\obj\Debug\PokerServer.RestApi.dll
+C:\Dev\HomeDev\PokerServer\PokerServer.RestApi\obj\Debug\PokerServer.RestApi.pdb
