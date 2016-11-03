@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerServer", "PokerServer\PokerServer.csproj", "{1198BF40-AC65-49B1-A893-F6BAFCA0BC73}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerSever.Engine.Tests", "PokerSever.Engine.Tests\PokerSever.Engine.Tests.csproj", "{D25DDE33-164B-43DD-9EDF-64E77E28C3F9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerServer.Engine.Configuration", "PokerServer.Engine.Configuration\PokerServer.Engine.Configuration.csproj", "{1DEFABBC-190B-4DC0-B2EE-B04E11E48C80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyResolver", "DependencyResolver\DependencyResolver.csproj", "{C94D2F39-7B1F-4092-89B3-B5C90B0D18DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,15 +59,20 @@ Global
 		{1DEFABBC-190B-4DC0-B2EE-B04E11E48C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DEFABBC-190B-4DC0-B2EE-B04E11E48C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DEFABBC-190B-4DC0-B2EE-B04E11E48C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C94D2F39-7B1F-4092-89B3-B5C90B0D18DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C94D2F39-7B1F-4092-89B3-B5C90B0D18DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C94D2F39-7B1F-4092-89B3-B5C90B0D18DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C94D2F39-7B1F-4092-89B3-B5C90B0D18DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{5B347925-2F21-44E7-AA2C-5F955CA6EF81} = {352DF4AD-C8BE-4877-9C8C-8899675095FA}
 		{1198BF40-AC65-49B1-A893-F6BAFCA0BC73} = {352DF4AD-C8BE-4877-9C8C-8899675095FA}
+		{5B347925-2F21-44E7-AA2C-5F955CA6EF81} = {352DF4AD-C8BE-4877-9C8C-8899675095FA}
 		{7E335352-9218-4F13-BF7B-F55921240069} = {B1626D9F-758A-4B54-BE88-A3E65B3E867E}
-		{1DEFABBC-190B-4DC0-B2EE-B04E11E48C80} = {B1626D9F-758A-4B54-BE88-A3E65B3E867E}
 		{D25DDE33-164B-43DD-9EDF-64E77E28C3F9} = {3615C34F-209E-4BE1-99F3-8DA633C4A56C}
+		{1DEFABBC-190B-4DC0-B2EE-B04E11E48C80} = {B1626D9F-758A-4B54-BE88-A3E65B3E867E}
+		{C94D2F39-7B1F-4092-89B3-B5C90B0D18DA} = {B1626D9F-758A-4B54-BE88-A3E65B3E867E}
 	EndGlobalSection
 EndGlobal

@@ -30,3 +30,7 @@ C:\Dev\Poker\PokerServer\PokerServer.Console\bin\Debug\PokerServer.Console.pdb
 C:\Dev\Poker\PokerServer\PokerServer.Console\bin\Debug\PokerServer.Engine.dll
 C:\Dev\Poker\PokerServer\PokerServer.Console\bin\Debug\PokerServer.Engine.pdb
 C:\Dev\Poker\PokerServer\PokerServer.Console\obj\Debug\PokerServer.Console.csprojResolveAssemblyReference.cache
+C:\Dev\Poker\PokerServer\PokerServer.Console\bin\Debug\DependencyResolver.dll
+C:\Dev\Poker\PokerServer\PokerServer.Console\bin\Debug\Ninject.dll
+C:\Dev\Poker\PokerServer\PokerServer.Console\bin\Debug\DependencyResolver.pdb
+C:\Dev\Poker\PokerServer\PokerServer.Console\bin\Debug\Ninject.xml

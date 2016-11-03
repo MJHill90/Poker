@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using DependencyResolver;
+using Ninject;
+using Ninject.Modules;
 using PokerServer.Engine;
 
 namespace PokerServer.Console
@@ -11,6 +12,14 @@ namespace PokerServer.Console
     {
         static void Main(string[] args)
         {
+            IKernel kernel = new StandardKernel();
+
+            var modules = new List<INinjectModule>
+            {
+                new EngineModule(),
+            };
+            kernel.Load(modules);
+
             System.Console.OutputEncoding = Encoding.UTF8;
             ConsoleKeyInfo cki;
             do
@@ -20,9 +29,8 @@ namespace PokerServer.Console
                 System.Console.WriteLine("Press [ESC] to exit");
                 cki = System.Console.ReadKey(true);
 
-                INumberGenerator numberGenerator = new NumberGenerator();
-                ICardService cardService = new CardService(numberGenerator);
-                IDeckService deckService = new DeckService(cardService, numberGenerator);
+                var cardService = kernel.Get<ICardService>();
+                var deckService = kernel.Get<IDeckService>();
 
                 if (cki.Key != ConsoleKey.Escape)
                 {
