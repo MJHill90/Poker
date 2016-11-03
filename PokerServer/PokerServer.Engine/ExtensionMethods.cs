@@ -13,8 +13,8 @@ namespace PokerServer.Engine
             for (int i = 0; i < length; i++)
             {
                 int r = i + (int)(numberGenerator.GenerateRandomDouble(0, 1) * (length - i));
-                T card = cards[r];
-                cards[r] = cards[i];
+                T card = cards[r-1];
+                cards[r-1] = cards[i];
                 cards[i] = card;
             }
         } 

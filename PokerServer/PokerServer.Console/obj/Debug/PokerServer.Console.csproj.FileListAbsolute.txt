@@ -25,3 +25,8 @@ C:\Dev\HomeDev\Poker\PokerServer\PokerServer.Console\bin\Debug\PokerServer.Conso
 C:\Dev\HomeDev\Poker\PokerServer\PokerServer.Console\bin\Debug\PokerServer.Engine.dll
 C:\Dev\HomeDev\Poker\PokerServer\PokerServer.Console\bin\Debug\PokerServer.Engine.pdb
 C:\Dev\HomeDev\Poker\PokerServer\PokerServer.Console\obj\Debug\PokerServer.Console.csprojResolveAssemblyReference.cache
+C:\Dev\Poker\PokerServer\PokerServer.Console\bin\Debug\PokerServer.Console.exe
+C:\Dev\Poker\PokerServer\PokerServer.Console\bin\Debug\PokerServer.Console.pdb
+C:\Dev\Poker\PokerServer\PokerServer.Console\bin\Debug\PokerServer.Engine.dll
+C:\Dev\Poker\PokerServer\PokerServer.Console\bin\Debug\PokerServer.Engine.pdb
+C:\Dev\Poker\PokerServer\PokerServer.Console\obj\Debug\PokerServer.Console.csprojResolveAssemblyReference.cache

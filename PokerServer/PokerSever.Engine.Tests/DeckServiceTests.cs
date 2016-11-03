@@ -12,9 +12,10 @@ namespace PokerSever.Engine.Tests
         [Test]
         public void CreateDeck_IsCreated_True()
         {
-            var cardServiceMock = new Mock<ICardService>();
-            var numberGeneratorMock = new Mock<INumberGenerator>();
-            var deckService = new DeckService(cardServiceMock.Object, numberGeneratorMock.Object);
+            var numberGenerator = new NumberGenerator();
+            var cardService = new CardService(numberGenerator);
+
+            var deckService = new DeckService(cardService, numberGenerator);
             IDeck<ICard> deck = deckService.CreateDeck(false);
             int expectedCardCount = 52;
             Assert.AreEqual(expectedCardCount, deck.Count, string.Format("Deck does not contain {0} cards", expectedCardCount));
@@ -23,9 +24,10 @@ namespace PokerSever.Engine.Tests
         [Test]
         public void CreateDeck_AllUnique_True()
         {
-            var cardServiceMock = new Mock<ICardService>();
-            var numberGeneratorMock = new Mock<INumberGenerator>();
-            var deckService = new DeckService(cardServiceMock.Object, numberGeneratorMock.Object);
+            var numberGenerator = new NumberGenerator();
+            var cardService = new CardService(numberGenerator);
+            
+            var deckService = new DeckService(cardService, numberGenerator);
             IDeck<ICard> deck = deckService.CreateDeck(false);
 
             // Group by rank and suit 
